@@ -1,5 +1,7 @@
 import styles from './page.module.css'
 
+export const revalidate = 60;
+
 interface FactApiResponse {
   facts: string[];
   success: boolean;
